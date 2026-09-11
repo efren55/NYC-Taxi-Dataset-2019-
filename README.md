@@ -1,26 +1,26 @@
 # NYC Taxi Dataset (2019)
-#### Project Overview
+### Project Overview
 This project analyzes New York City’s urban mobility dynamics in 2019 using public NYC Taxi & Limousine Commission (TLC) data. By integrating big data processing with exploratory data analysis, the study evaluates market segmentation, spatial distribution, and rider behaviors across Yellow Taxis, Green Taxis, and High Volume For-Hire Vehicles (FHVHV like Uber and Lyft).
 
-#### Project Objective
+### Project Objective
 To evaluate operational efficiency and demand patterns across NYC's transit options in 2019, identifying specific service niches to deliver actionable recommendations for passengers optimizing trip choices and drivers maximizing profitability.
 
-#### flowchart TD
-  A[NYC Taxi Datasets 2019 - Databricks] --> B[PySpark & Spark SQL: Feature Engineering & Outlier Cleaning]
-  B --> C[Cleaned Tables: Yellow, Green & FHVHV]
-  C --> D[Export Cleaned Data to CSV]
-  D --> E[Jupyter Notebook: Pandas & NumPy Final Cleaning]
-  E --> F[LangChain & Google GenAI: Dataset & Column Descriptions]
-  E --> G[Univariate, Bivariate & Multivariable EDA: Matplotlib & Seaborn]
-  G --> H[Actionable Insights & Conclusions]
+### flowchart TD
+A[NYC Taxi Datasets 2019 - Databricks] --> B[PySpark & Spark SQL: Feature Engineering & Outlier Cleaning]\
+B --> C[Cleaned Tables: Yellow, Green & FHVHV]\
+C --> D[Export Cleaned Data to CSV]\
+D --> E[Jupyter Notebook: Pandas & NumPy Final Cleaning]\
+E --> F[LangChain & Google GenAI: Dataset & Column Descriptions]\
+F --> G[Univariate, Bivariate & Multivariable EDA: Matplotlib & Seaborn]\
+G --> H[Actionable Insights & Conclusions]
 
-### **CONCLUSION**
+## **CONCLUSION**
 An analysis of New York’s mobility ecosystem reveals a highly fragmented and specialized market. There is no single "clear winner"; instead, various services have carved out specific niches.\
 Yellow Taxis endure as a convenient option for business travel, commanding higher fares for quick, short trips within Manhattan during the workweek. Meanwhile, FHVs (such as Uber and Lyft) have solved the "last-mile" and residential mobility challenge; they dominate weekends and capture demand in the outer boroughs—particularly the Bronx and Brooklyn—outperforming even Green Taxis, whose impact is largely confined to specific border areas like Harlem and western Queens.\
 ***Actionable Insight:***
 - To maximize efficiency, the optimal transport model suggests that users should rely on Yellow Taxis for quick, executive-style trips within Manhattan on weekdays (where the average ride lasts 14 minutes) and turn to FHVs for longer journeys, weekend outings, and travel to or from the outer boroughs. For drivers, the key to profitability lies in positioning themselves in Manhattan during the week (Yellow Taxis) and shifting to residential areas on weekends (FHVs).
 
-#### **Insights**
+## **Insights**
 ##### A. Market Segmentation: Business vs. Leisure
 There is a clear divide in user behavior based on the type of service:
 - ***Traditional Taxis (Yellow/Green) = Work-Oriented:*** Demand peaks mid-week (Wednesdays and Thursdays), indicating they are primarily used for business trips, office commutes, and work-related routines.
