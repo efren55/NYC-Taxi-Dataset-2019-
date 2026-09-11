@@ -1,11 +1,11 @@
-# NYC Taxi Dataset (2019)
+# **NYC Taxi Dataset (2019)**
 ### Project Overview
 This project analyzes New York City’s urban mobility dynamics in 2019 using public NYC Taxi & Limousine Commission (TLC) data. By integrating big data processing with exploratory data analysis, the study evaluates market segmentation, spatial distribution, and rider behaviors across Yellow Taxis, Green Taxis, and High Volume For-Hire Vehicles (FHVHV like Uber and Lyft).
 
 ### Project Objective
 To evaluate operational efficiency and demand patterns across NYC's transit options in 2019, identifying specific service niches to deliver actionable recommendations for passengers optimizing trip choices and drivers maximizing profitability.
 
-### flowchart TD
+### Flowchart TD
 A[NYC Taxi Datasets 2019 - Databricks] --> B[PySpark & Spark SQL: Feature Engineering & Outlier Cleaning]\
 B --> C[Cleaned Tables: Yellow, Green & FHVHV]\
 C --> D[Export Cleaned Data to CSV]\
